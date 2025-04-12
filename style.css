@@ -4,7 +4,10 @@ body {
     background-color: #f9f4ed;
     color: #333;
   }
-  
+
+  html {
+  scroll-behavior: smooth;
+  }
   header {
     background: linear-gradient(135deg, #d32f2f, #f57c00);
     color: white;
@@ -18,7 +21,14 @@ body {
     text-decoration: none;
     font-weight: bold;
   }
-  
+
+  nav a:hover {
+  color: #f1c40f;
+  border-bottom: 2px solid #f1c40f;
+  padding-bottom: 2px;
+  transition: all 0.3s ease-in-out;
+  }
+
   section {
     padding: 40px 20px;
     max-width: 1000px;
